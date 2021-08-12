@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 header {
     background-image: url(../images/background.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -869,9 +869,6 @@ header {
     }
   }
   @media (max-width: 970px) {
-    header {
-      height: 100%;
-    }
     .header_nav {
       display: none;
     }
